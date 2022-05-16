@@ -1,0 +1,43 @@
+/* START GENERAL RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+}
+
+/* END GENERAL RULES */
+
+/* START HEADER RULES */
+
+.site-header {
+    background-color: #fff;
+    position: relative;
+    margin: 20px 50px 0px 50px;
+}
+
+.navbar-top {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.buttons {
+    /*padding: 9.45px 6.75px;*/
+    background: #006394;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-list {
+}
+
+/* END HEADER RULES */
