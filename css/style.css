@@ -1,5 +1,9 @@
 /* START GENERAL RULES */
 
+:root{
+    --main-color: #006394; /* colore background */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +18,16 @@ body {
     text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
 }
 
+.main-button {
+    padding: 5px;
+    list-style: none;
+    margin: 10px;
+    background: var(--main-color);
+    padding: 9.45px 6.75px;
+    color: white;
+    border-radius: 5px;
+}
+
 /* END GENERAL RULES */
 
 /* START HEADER RULES */
@@ -26,18 +40,17 @@ body {
 
 .navbar-top {
     display: flex;
+    align-items: center;
     font-size: 15px;
     justify-content: space-between;
 }
 
-.buttons {
-    /*padding: 9.45px 6.75px;*/
-    background: #006394;
-    color: white;
-    border-radius: 5px;
+.button-list {
+    display: flex;
 }
 
-.button-list {
+#sections {
+    line-height: 100%;
 }
 
 /* END HEADER RULES */
