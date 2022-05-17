@@ -55,10 +55,14 @@ body {
     display: flex;
 }
 
+.sections {
+    display: flex;
+    flex-direction: row;
+}
+
 .sections-list {
     display: flex;
     list-style: none;
-    text-align: center;
 }
 
 #all-sections-item {
@@ -77,6 +81,16 @@ body {
     height: 2px;
     background-color: black;
     margin: 6px 0;
+}
+
+.navbar-mid {
+    display: flex;
+}
+
+#site-logo {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 /* END HEADER RULES */
