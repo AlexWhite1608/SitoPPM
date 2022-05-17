@@ -93,4 +93,23 @@ body {
     margin: auto;
 }
 
+.navbar-bottom{
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.menu-navbar-bottom {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#menu-list li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+
+}
+
 /* END HEADER RULES */
