@@ -1,8 +1,8 @@
 /* START GENERAL RULES */
 
 :root{
-    --main-color: #006394; /* colore background buttons*/
-    --hover-color: #007ab8;
+    --main-color: #006394; /* colore background buttons */
+    --hover-color: #007ab8; /* colore background buttons hover */
 }
 
 * {
@@ -23,6 +23,8 @@ body {
 
 /* START HEADER RULES */
 
+/* TODO: aggiusta bottoni in alto */
+
 .main-button {
     list-style: none;
     margin: 5px;
@@ -42,7 +44,7 @@ body {
 .site-header {
     background-color: #fff;
     position: relative;
-    margin: 20px 50px 0px 50px;
+    margin: 20px 50px 0 50px;
 }
 
 .navbar-top {
@@ -96,7 +98,12 @@ body {
 .navbar-bottom{
     display: flex;
     margin-top: 20px;
+    margin-bottom: 15px;
     border-bottom: 1px solid black;
+}
+
+#page {
+
 }
 
 .menu-navbar-bottom {
@@ -112,4 +119,44 @@ body {
 
 }
 
+#menu-list li:hover {
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+
 /* END HEADER RULES */
+
+/* START BODY RULES */
+
+.content {
+    display: flex;
+}
+
+.content-header {
+    display: flex;
+    flex: auto;
+}
+
+#trending {
+    color: var(--hover-color);
+    margin-left: 50px;
+    font-size: .875em;
+}
+
+.content-header-list {
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+
+.content-header-list li{
+    color: #38322a;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* END BODY RULES */
